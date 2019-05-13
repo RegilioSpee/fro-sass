@@ -1,0 +1,14 @@
+/* Sass nesting voorbeeld: video --> "Kennismaken met Sass: nesting" */
+nav {
+  // background-color: $hoofdkleur;
+  ul {
+    list-style-type: none;
+  }
+  a {
+    // color: #fff;
+    // text-decoration: none; ik gebruik een afbeelding dus heeft dit geen effect
+    &:hover {
+      background-color: $donkerder;
+    }
+  }
+}
